@@ -1,16 +1,23 @@
 {
-  "landingPage": "/",
+  "landingPage": "/wp-admin/",
   "steps": [
     {
       "step": "installTheme",
       "themeZipFile": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/1cba83decd506c2f03d8162853165c63b4aa641a/helloworldmentopro.zip"
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/4e4cea9a08594f5add3d8196e1e550acccea4d0e/helloworldmentopro.zip"
       }
     },
     {
       "step": "activateTheme",
       "themeFolderName": "helloworldmentopro"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "stylesheet": "helloworldmentopro",
+        "template": "helloworldmentopro"
+      }
     }
   ]
 }
