@@ -1,11 +1,11 @@
 {
-  "landingPage": "/wp-admin/",
+  "landingPage": "/wp-admin/themes.php",
   "steps": [
     {
       "step": "installTheme",
       "themeZipFile": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/4e4cea9a08594f5add3d8196e1e550acccea4d0e/helloworldmentopro.zip"
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/1e1d3f21988b29f4052536c47c83a42ea988358a/helloworldmentopro.zip"
       }
     },
     {
