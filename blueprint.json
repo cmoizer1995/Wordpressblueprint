@@ -5,12 +5,12 @@
       "step": "installTheme",
       "themeZipFile": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/2705edd2096103fcd3f95d598327ffd581139cf7/wordpress-playground.zip"
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/main/helloworldmentopro.zip"
       }
     },
     {
       "step": "activateTheme",
-      "themeFolderName": "wordpress-playground"
+      "themeFolderName": "helloworldmentopro"
     }
   ]
 }
