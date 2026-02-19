@@ -5,7 +5,7 @@
       "step": "installTheme",
       "themeZipFile": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/main/helloworldmentopro.zip"
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/1cba83decd506c2f03d8162853165c63b4aa641a/helloworldmentopro.zip"
       }
     },
     {
