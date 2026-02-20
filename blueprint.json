@@ -1,23 +1,42 @@
 {
   "landingPage": "/",
   "steps": [
+
     {
       "step": "installTheme",
-      "themeZipFile": {
+      "themeData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/ccde2eeaeed9a97e3c239f9e3a479f41b21075e7/helloworldmentopro_fixed.zip"
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/976dcb1a98ca0174af43b89ead24f33ca5a027e6/helloworldmentopro_fixed.zip"
       }
     },
     {
       "step": "activateTheme",
-      "themeFolderName": "helloworldmentopro"
+      "themeFolderName": "helloworldmentopro_fixed"
+    },
+
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "elementor"
+      }
     },
     {
-      "step": "setSiteOptions",
-      "options": {
-        "stylesheet": "helloworldmentopro",
-        "template": "helloworldmentopro"
+      "step": "activatePlugin",
+      "pluginPath": "elementor/elementor.php"
+    },
+
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Wordpressblueprint/f0d911ebb710b566ef144336adf8570f82ef1c97/hide-admin-bar-quiet.zip"
       }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "hide-admin-bar-quiet/hide-admin-bar-quiet.php"
     }
+
   ]
 }
